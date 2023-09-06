@@ -1,0 +1,38 @@
+.articles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.articles-main{
+    border-bottom: solid #2f332e 1px;
+    width: 100%;
+    height: 50vh;
+    padding: 1rem;
+}
+
+.articles-other{
+    border-top: solid #2f332e 1px;;
+    width: 100%;
+    height: 50vh;
+    padding: 1rem;
+}
+
+@media(min-width: 768px){
+    .articles{
+        flex-direction: row;
+    }
+
+    .articles-main{
+        border: solid #2f332e 1px;
+        width: 50%;
+        height: 100vh;
+    }
+
+    .articles-other{
+        border: solid #2f332e 1px;
+        width: 50%;
+        height: 100vh;
+    }
+}
