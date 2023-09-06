@@ -1,0 +1,40 @@
+.big-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: .5rem;
+    background: #1c1f1e;
+}
+
+
+.big-card-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.big-card-img-container img{
+    width: 100%;
+    height: auto;
+    border-radius: .5rem;
+}
+
+.big-card-title{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+}
+
+.big-card-description{
+    display: flex;
+    width: 100%;
+    color: #5e6061;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+}

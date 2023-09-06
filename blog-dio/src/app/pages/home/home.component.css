@@ -8,14 +8,14 @@
 .articles-main{
     border-bottom: solid #2f332e 1px;
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     padding: 1rem;
 }
 
 .articles-other{
     border-top: solid #2f332e 1px;;
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     padding: 1rem;
 }
 
