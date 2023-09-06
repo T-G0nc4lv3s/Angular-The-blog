@@ -1,0 +1,29 @@
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:solid #2f332e 2px;
+    border-bottom: solid #2f332e 2px;
+}
+
+.banner-container h1{
+    font-size: 3em;
+}
+
+@media(min-width: 425px){
+    .banner-container h1{
+        font-size: 4em;
+    }
+}
+
+@media(min-width: 768px){
+    .banner-container h1{
+        font-size: 8em;
+    }
+}
+
+@media(min-width: 1024px){
+    .banner-container h1{
+        font-size: 10em;
+    }
+}
