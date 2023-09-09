@@ -4,10 +4,16 @@
     align-items: center;
     flex-direction: column;
     padding: 1rem;
+    border: solid #000000 2px;
     border-radius: .5rem;
     background: #1c1f1e;
+    transition: background 2s, border 2s;
 }
 
+.big-card-container:hover{
+    background: #303634;
+    border: solid rgb(131, 75, 214) 2px;
+}
 
 .big-card-img-container{
     display: flex;
