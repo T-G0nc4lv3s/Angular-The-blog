@@ -29,11 +29,6 @@
     margin-right: .6rem;
 }
 
-.articles-other-list li:hover{
-    border: solid #14db9c 1px;
-    border-radius: .5rem;
-}
-
 @media(min-width: 768px){
     .articles{
         flex-direction: row;
