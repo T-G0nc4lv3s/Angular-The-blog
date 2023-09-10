@@ -50,14 +50,25 @@
 }
 .contact {
     color: #ffffff;
+    font-size: 20px;
+    transition: font-size 2s;
+}
+
+.contact:hover{
+    font-size: 23px;
 }
 
 @media(max-width: 425px){
     .contact-list{
+        width: 160px;
+        height: 160px;
+        justify-content: center;
+        align-items: center;
         display: none;
 
         &.is-open{
             display: flex;
+            background: #303634;;
         }
     }
 }

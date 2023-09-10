@@ -1,11 +1,15 @@
 .nav-bar-container{
     display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
     padding: 1rem;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     min-height: 80px;
-    max-height: 80px;
+    height:  90px;
+    background: #000000;
 }
 
 .logo-container{
@@ -18,7 +22,12 @@
     width: 40px;
     height: auto;
     border-radius: 50%;
-    filter: hue-rotate(146deg) brightness(1.3) saturate(140%);
+    filter: hue-rotate(30deg) brightness(100%) saturate(140%);
+    transition: filter 4s;
+}
+
+.img-logo:hover{
+    filter: hue-rotate(242deg);
 }
 
 .menu-container{
