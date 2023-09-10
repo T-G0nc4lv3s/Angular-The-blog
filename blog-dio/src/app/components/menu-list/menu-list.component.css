@@ -22,12 +22,13 @@
     background: #000000;
     color: #ffffff;
     border-radius: 50%;
-    transition: background 1s;
+    transition: background 2s, border 2s;
     border: solid #000000 2px;
 }
 
 #burguer-menu:hover{
-    background: #303634;
+    border: solid rgb(11, 182, 235) 2px;
+    background:rgb(109, 156, 194);
     cursor: pointer;
 }
 
@@ -41,7 +42,6 @@
     right: 20px;
     padding: 1rem;
     border-radius: .2rem;
-    border: solid rgb(131, 75, 214) 1px;
 }
 
 .contact-list li{
@@ -68,7 +68,8 @@
 
         &.is-open{
             display: flex;
-            background: #303634;;
+            background: #303634;
+            border: solid rgb(11, 182, 235) 1px;
         }
     }
 }

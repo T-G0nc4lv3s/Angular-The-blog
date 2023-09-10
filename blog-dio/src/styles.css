@@ -11,4 +11,17 @@ body{
 
 a {
     text-decoration: none;
+    color: #ffffff;
+}
+
+.gray-25{
+    color: #797e7e;
+}
+
+.gray-50{
+    background: #303634;
+}
+
+.gray-100{
+    background: #1c1f1e;
 }

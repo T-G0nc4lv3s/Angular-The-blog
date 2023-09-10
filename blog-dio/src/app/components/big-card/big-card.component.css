@@ -12,7 +12,7 @@
 
 .big-card-container:hover{
     background: #303634;
-    border: solid rgb(131, 75, 214) 2px;
+    border: solid  rgb(11, 182, 235) 2px;
 }
 
 .big-card-img-container{
@@ -34,6 +34,8 @@
     align-items: center;
     justify-content: center;
     padding: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
 }
 
 .big-card-description{

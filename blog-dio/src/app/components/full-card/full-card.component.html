@@ -1,0 +1,21 @@
+<div class="full-card-container gray-50">
+    <div class="card-arrow-back">
+        <i class="material-icons"><a [routerLink]="['']">keyboard_double_arrow_left</a></i>
+    </div>
+    <div class="full-card-img">
+        <img src={{imgUrl}} alt="imagem">
+    </div>
+    <div class="icons-container">
+        <i id="dislike" class="material-icons social">thumb_down</i>
+        <i id="like" class="material-icons social">thumb_up</i>
+        <i id="comment" class="material-icons social">chat_bubble</i>
+        <i id="bookmark" class="material-icons social">bookmark</i>
+        <i id="share" class="material-icons social">share</i>
+    </div>
+    <div class="full-card-title">
+        <h1>{{cardTitle}}</h1>
+    </div>
+    <div class="full-card-description gray-25">
+        <p>{{description}}</p>
+    </div>
+</div>
