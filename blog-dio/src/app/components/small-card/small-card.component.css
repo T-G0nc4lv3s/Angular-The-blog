@@ -5,12 +5,13 @@
     border: none;
     padding: 1rem;
     border-radius: .5rem;
-    transition: background 2s, border 1s;
+    transition: background 2s, border 2s;
+    border: solid #000000 2px;
 }
 
 .small-card-container:hover{
     background: #303634;
-    border: solid rgb(131, 75, 214) 1px;
+    border: solid rgb(131, 75, 214) 2px;
 }
 
 .small-card-img-container{
