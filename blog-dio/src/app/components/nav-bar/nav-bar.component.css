@@ -4,7 +4,8 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    min-height: 100px;
+    min-height: 80px;
+    max-height: 80px;
 }
 
 .logo-container{
@@ -20,29 +21,6 @@
     filter: hue-rotate(146deg) brightness(1.3) saturate(140%);
 }
 
-.contact-container{
+.menu-container{
     display: flex;
-}
-
-.contact-container a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.contact-list{
-    display: none;
-    justify-content: space-around;
-    align-items: flex-end;
-    list-style: none;
-}
-
-.contact-list li{
-    font-size: 20px;
-    margin: 5px;
-}
-
-@media (min-width: 768px){
-    .contact-list{
-        display: flex;
-    }
 }

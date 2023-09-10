@@ -1,0 +1,11 @@
+<div class="menu-list-container">
+    <div class="btn-menu-container">
+        <i id="burguer-menu" class="material-icons" (click)="toggleMenu()" >{{isOpenMenu ? "close" : "menu"}}</i>
+    </div>
+    
+    <ul class="contact-list" [class.is-open]="isOpenMenu">
+        <li><a class="contact" href="#">LinkedIn</a></li>
+        <li><a class="contact" href="#">GitHub</a></li>
+        <li><a class="contact" href="#">Instagram</a></li>
+    </ul>
+</div>

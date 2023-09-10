@@ -1,0 +1,77 @@
+.menu-list-container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.btn-menu-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-burguer{
+    display: flex;
+    width: fit-content;
+    border-radius: 50%;
+    background: #000000;
+    border: #000000;
+}
+
+#burguer-menu{
+    padding: .3rem;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 50%;
+    transition: background 1s;
+    border: solid #000000 2px;
+}
+
+#burguer-menu:hover{
+    background: #303634;
+    cursor: pointer;
+}
+
+.contact-list{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    background: #000000;
+    position: absolute;
+    top: 75px;
+    right: 20px;
+    padding: 1rem;
+    border-radius: .2rem;
+    border: solid rgb(131, 75, 214) 1px;
+}
+
+.contact-list li{
+    margin: .5rem;
+    font-size: 20px;
+}
+.contact {
+    color: #ffffff;
+}
+
+@media(max-width: 425px){
+    .contact-list{
+        display: none;
+
+        &.is-open{
+            display: flex;
+        }
+    }
+}
+
+@media(min-width: 426px) {
+    .btn-menu-container{
+        display: none;
+    }
+
+    .contact-list{
+        display: flex;
+        flex-direction: row;
+        top: 6px;
+        right: 0px;
+        border: solid #000000 1px;
+    }
+}
