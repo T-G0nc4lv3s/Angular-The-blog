@@ -19,16 +19,27 @@
     height: auto;
 }
 
-.img-logo{
-    width: 40px;
-    height: auto;
+.logo-container > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(8, 221, 228, 0.507);
+    border: solid rgb(49, 201, 221) 2px;
     border-radius: 50%;
-    filter: hue-rotate(30deg) brightness(100%) saturate(140%);
-    transition: filter 4s;
+    padding: 1rem;
+    height: 40px;
+    width: 40px;
+    transition: background 1s, border 1s;
 }
 
-.img-logo:hover{
-    filter: hue-rotate(242deg);
+.logo-container > a:hover{
+    background: rgba(26, 228, 8, 0.527);
+    border: solid rgb(129, 230, 90) 2px;
+}
+
+.logo-container > a > span{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .menu-container{
