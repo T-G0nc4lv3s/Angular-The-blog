@@ -7,6 +7,8 @@
    padding: 1rem;
    border: solid #000000 2px;
    transition: border 2s;
+   max-width: 900px;
+   margin-top: 300px;
 }
 
 .full-card-container:hover{
@@ -38,7 +40,6 @@
 
 .full-card-img > img{
     width: 100%;
-    max-width: 900px;
     height: auto;
     border-radius: .25rem;
 }

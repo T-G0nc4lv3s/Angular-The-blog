@@ -47,6 +47,8 @@
 .contact-list li{
     margin: .5rem;
     font-size: 20px;
+    font-family: 'Roboto', 'sans';
+    font-weight: bold;
 }
 .contact {
     color: #ffffff;

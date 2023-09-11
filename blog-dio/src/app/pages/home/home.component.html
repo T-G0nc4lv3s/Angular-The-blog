@@ -3,57 +3,23 @@
 </div>
 <div class="articles">
     <div class="articles-main">
-        <app-big-card imgUrl="https://encdn.ldmnq.com/faq/images/pt/c667984d-efe6-4316-adab-1932c26c1623.jpg"
-        
-        cardTitle="Ab excepturi consequatur eum obcaecati illo."
-        description="Et obcaecati odit aut aliquid libero qui voluptate nemo eos consequatur nobis. Ut nesciunt labore vel molestiae soluta et doloremque magni aut consequatur nemo ea cumque magnam eos molestiae fugit ut earum consectetur. Aut similique enim eum officia earum non aspernatur eveniet sed modi reiciendis non galisum tenetur? Eum internos odio sed omnis impedit non perspiciatis distinctio ut incidunt illum qui repellat omnis qui cupiditate possimus sed omnis repudiandae. "
+        <app-big-card 
+        id={{mainNews.id}}
+        imgUrl={{mainNews.imgUrl}}
+        cardTitle={{mainNews.title}}
+        description={{mainNews.description}}
         ></app-big-card>
-    </div>
-    <div class="articles-other">
-        <ul class="articles-other-list">
-           <li>
-            <app-small-card 
-            imgUrl="https://i.pinimg.com/originals/67/da/44/67da44d3ba693713128ba3e55801981f.jpg"
-            cardTitle="Est facere voluptas qui itaque blanditiis. "
-            ></app-small-card>
-           </li>
-           <li>
+</div>
+<div class="articles-other">
+    <ul class="articles-other-list">
+        <li class="card-item"
+         *ngFor="let i of newsList">
             <app-small-card
-            imgUrl="https://sm.ign.com/t/ign_br/screenshot/default/ssa_4fzu.1280.jpg" 
-            cardTitle="Ut impedit cumque sed quam inventore. "
-            ></app-small-card>
-           </li>
-           <li>
-            <app-small-card
-            imgUrl="https://fictionlit.com/wp-content/uploads/2023/08/Evil-Saitama.png"
-            cardTitle="Est consequatur laudantium ut. "
-            ></app-small-card>
-           </li>
-           <li>
-            <app-small-card
-            imgUrl="https://s.aficionados.com.br/imagens/esta-e-a-ordem-cronologica-certa-para-assistir-dragon-ball_f.jpg"
-            cardTitle="Quo sint dolorem quo nostrum impedit. "
-            ></app-small-card>
-           </li>
-           <li>
-            <app-small-card
-            imgUrl="https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/26079ab060401d8a76039e985d63a3e9.jpe"
-            cardTitle="Eum temporibus tempore aut internos nihil."
-            ></app-small-card>
-           </li>
-           <li>
-            <app-small-card 
-            imgUrl="https://miro.medium.com/v2/resize:fit:1400/0*qKksSvflsm_XHdI7.jpg"
-            cardTitle="Ab iste blanditiis aut galisum omnis et iure adipisci. "
-            ></app-small-card>
-           </li>
-           <li>
-            <app-small-card
-            imgUrl="https://wallpapercg.com/download/saitama-8k-7680x4320-10470.jpg"
-            cardTitle="Et odio placeat non aliquam quis."
-            ></app-small-card>
-           </li>
-        </ul>
-    </div>
+            id={{i.id}}
+            imgUrl={{i.imgUrl}}
+            cardTitle={{i.title}}></app-small-card>
+        </li>
+    </ul>
+</div>
 
 </div>
