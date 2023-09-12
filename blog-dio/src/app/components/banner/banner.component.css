@@ -7,25 +7,29 @@
     font-family:'Times New Roman', 'Times';
 }
 
-.banner-container h1{
-    font-size: 3em;
-    transition: font-size 2s;
+.banner-title{
+    display: flex;
+    list-style-type: none;
+    font-size: 3rem;
+    font-weight: 700;
+    transition: font-size 1s;
 }
 
+
 @media(min-width: 425px){
-    .banner-container h1{
+    .banner-title{
         font-size: 4em;
     }
 }
 
 @media(min-width: 768px){
-    .banner-container h1{
+    .banner-title{
         font-size: 8em;
     }
 }
 
 @media(min-width: 1024px){
-    .banner-container h1{
+    .banner-title{
         font-size: 10em;
     }
 }
